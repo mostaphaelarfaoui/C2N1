@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%
+
+}
+body{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(210, 46%, 95%);
+
+}
+section{
+    width: 75%;
+    height: 85;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr) ;
+    gap: 20px;
+    grid-template-areas:
+    "box1 box1 box2 box5"
+    "box3 box4 box4 box5" ;
+
+}
+/* article{
+    height: 200%;
+} */
+
+.Daniel{
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    padding: 5%;
+  
+}
+.Jonathan{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    padding: 5%;
+ 
+}
+.Jeanette{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 5%;
+    
+}
+.Patrick{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    padding: 5%;
+    
+}
+.Kira{
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 5%;
+    
+}
+img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.title{
+    display: flex;
+}
+h4{
+    color: hsl(0, 0%, 81%);
+}
+.white{
+    color: hsl(210, 46%, 95%);
+}
+.dark{
+    color: hsl(0, 0%, 0%);
+}
+.Daniel{
+    grid-area: box1;
+}
+.Jonathan{
+    grid-area: box2;
+}
+.Jeanette{
+    grid-area: box3;
+}
+.Patrick{
+    grid-area: box4;
+}
+.Kira{
+    grid-area: box5;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+h5{
+    font-size: 15px;
+}
+.white-1{
+    color:hsl(210, 46%, 95%);
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+.dark-1{
+    color: hsl(0, 0%, 0%);
+    margin-bottom: 6%;
+    margin-top: 6%;
+}
+p{
+    color: hsl(0, 0%, 81%);
+    font-size: 13px;
+}
+
+/* mobile size */
+@media (max-width: 375px){
+    section{display: flex;
+        flex-direction: column;}
+}

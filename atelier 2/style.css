@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: hsl(229, 57%, 11%) ;
+    font-family: 'Raleway', sans-serif;
+   
+}
+.box{
+    display: flex;
+}
+.box1{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 75px 10px 10px;
+    width: 25%;
+    height: 100px;
+    padding: 2%;
+    margin-top: 15%;
+    margin-left: 16%;
+}
+.icons{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.icons-1{
+    background-color:hsl(229, 57%, 11%) ;
+    width: 25px;
+    height: 20px;
+    padding: 4%;
+    border-radius: 20%;
+}
+.box2{
+    background-color:hsl(228, 56%, 26%) ;
+    border-radius: 10px;
+    width: 40%;
+    height: 110px;
+    margin-left: 2%;
+    margin-top: 232px;
+}
+.p1{
+    color: hsl(243, 100%, 93%);
+    padding: 4%;
+}
+.box2-1{
+    background-color: hsl(229, 57%, 11%);
+    width: 90%;
+    height: 16%;
+    margin-left: 4%;
+    margin-top: -2%;
+    border-radius: 10px;
+}
+.box2-1-1{
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    width: 80%;
+    height: 98%;
+    border-radius: 10px;
+}
+.gb{
+    color: hsl(243, 100%, 93%);
+    display: flex;
+    justify-content: space-between;
+}
+.rect{
+    background-color: azure;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: 256px;
+    left: 75%;
+}
+.p-r{
+    position: relative;
+    top: -10px;
+    left: 10%;
+
+}
+.triangle{
+    width: 0px;
+    height: 0px;
+    border-top: 26px solid azure;
+    border-left: 26px solid transparent;
+    position: relative;
+    top: 88%;
+    right: -78%;
+}
+.cercle{
+    background-color: hsl(243, 100%, 93%);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-left: 95%;
+}
+
+@media (max-width: 376px){
+    .logo{
+        margin-left: 12%;
+    }
+    .box1{
+        width: 88%;
+        height: 108px;
+        margin-top: 53%;
+        margin-left: 5%;
+    }
+    .box2{
+    width: 92%;
+    height: 135px;
+    margin-left: -92%;
+    margin-top: 330px;
+    }
+    .p1{
+    display: flex;
+    justify-content: center;
+    }
+    .p-r{
+        top: 17px;
+    }
+    .rect{
+    top: 486px;
+    left: 34%;
+    }
+    .triangle{
+    width: 0px;
+    height: 0px;
+    border-top: 0px solid azure;
+    border-left: 0px solid transparent;
+    }
+    .p{
+        margin-left: 10%;
+    }
+    .cercle{
+        width: 20px;
+        height: 20px;
+        margin-left: 92%;
+    }
+
+
+}
